@@ -1,0 +1,123 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500&display=swap');
+
+*, *::after, *::before {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    max-width: 100vw;
+    max-height: 100vh;
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(assets/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.container {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    margin: 0 auto;
+    overflow: hidden;
+}
+
+.female {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 25%;
+    right: 25%;
+    background-image: url(assets/female.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    opacity: 0;
+    z-index: 100;
+}
+
+.headline1 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    bottom: -20%;
+    left: 0;
+    background-image: url(assets/headline1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    opacity: 0;
+    z-index: 10;
+}
+
+.headline2 {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url(assets/headline2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    opacity: 0;
+}
+
+.subHeadline {
+    position: absolute;
+    width: 110%;
+    height: 100%;
+    top: 20%;
+    right: 10%;
+    background-image: url(assets/subheadline.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    opacity: 0;
+}
+
+.learn-more {
+    position: absolute;
+    width: 60%;
+    height: 50%;
+    bottom: -10%;
+    left: 20%;
+    background-image: url(assets/learnmore.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    opacity: 0;
+}
+
+.logo {
+    position: absolute;
+    width: 50%;
+    height: 50%;
+    top: 12%;
+    right: 10%;
+    background-image: url(assets/logo.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: center center;
+    opacity: 0;
+}
+
+.replay {
+    position: absolute;
+    width: 50%;
+    height: 12%;
+    bottom: -3%;
+    right: 23%;
+    background-image: url(assets/replay.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    opacity: 0;
+    cursor: pointer;
+}
